@@ -1,0 +1,51 @@
+Per a la carrega incial utilizem copilot:
+prompt: Genera un texto que será un archivo csv separado con comas, con 40 libros de diferentes géneros y autores de diferentes nacionalidades que contengan la siguiente infomación
+título, autor y genero del libro, escrito como una lista de listas.
+
+Respuesta
+
+llibres = [
+    ["Ada, La Computadora Visionaria", "Jennifer S. Light", "Biografía/Tecnología"],
+    ["The Innovators", "Walter Isaacson", "Historia de la informática"],
+    ["Python Crash Course", "Eric Matthes", "Programación"],
+    ["Automate the Boring Stuff with Python", "Al Sweigart", "Programación práctica"],
+    ["Clean Code", "Robert C. Martin", "Buenas prácticas de programación"],
+    ["Introduction to Algorithms", "Cormen, Leiserson, Rivest, Stein", "Algoritmos y estructuras de datos"],
+    ["Code: The Hidden Language of Computer Hardware and Software", "Charles Petzold", "Historia y conceptos de computación"],
+    ["Grokking Algorithms", "Aditya Bhargava", "Algoritmos explicados visualmente"],
+    ["Artificial Intelligence: A Guide for Thinking Humans", "Melanie Mitchell", "Inteligencia artificial"],
+    ["The Pragmatic Programmer", "Andrew Hunt & David Thomas", "Buenas prácticas de desarrollo"],
+    ["Python for Everybody", "Charles Severance", "Introducción a Python"],
+    ["Deep Learning", "Ian Goodfellow, Yoshua Bengio, Aaron Courville", "Aprendizaje profundo"],
+    ["Algorithms to Live By", "Brian Christian & Tom Griffiths", "Algoritmos aplicados a la vida"],
+    ["Coding for Kids: Python", "Adrienne B. Tacke", "Python para principiantes"],
+    ["Structure and Interpretation of Computer Programs", "Harold Abelson", "Fundamentos de programación"],
+    ["Python Tricks", "Dan Bader", "Consejos y buenas prácticas de Python"],
+    ["The Art of Computer Programming", "Donald Knuth", "Clásico de algoritmos"],
+    ["Computer Science Distilled", "Wladston Ferreira Filho", "Conceptos clave de informática"],
+    ["Head First Java", "Kathy Sierra & Bert Bates", "Programación orientada a objetos"],
+    ["Learn Python the Hard Way", "Zed A. Shaw", "Python básico y ejercicios prácticos"],
+    ["Data Science from Scratch", "Joel Grus", "Ciencia de datos con Python"],
+    ["Practical Object-Oriented Design in Ruby", "Sandi Metz", "Principios de diseño orientado a objetos"],
+    ["Python Data Science Handbook", "Jake VanderPlas", "Bibliotecas de Python para ciencia de datos"],
+    ["Computer Programming for Everyone", "Ada Lovelace", "Historia y fundamentos de programación"],
+    ["The Algorithm Design Manual", "Steven S. Skiena", "Diseño de algoritmos"],
+    ["Python Cookbook", "David Beazley & Brian K. Jones", "Recetas avanzadas de Python"],
+    ["Introduction to Machine Learning with Python", "Andreas C. Müller & Sarah Guido", "Aprendizaje automático con Python"],
+    ["Fluent Python", "Luciano Ramalho", "Python avanzado y buenas prácticas"],
+    ["Think Python", "Allen B. Downey", "Introducción a Python y conceptos de programación"],
+    ["Programming Pearls", "Jon Bentley", "Problemas y soluciones de programación"],
+    ["The C Programming Language", "Brian Kernighan & Dennis Ritchie", "Lenguaje C clásico"],
+    ["Artificial Intelligence: A Modern Approach", "Stuart Russell & Peter Norvig", "IA y algoritmos"],
+    ["Python Programming for the Absolute Beginner", "Michael Dawson", "Python básico"],
+    ["Computer Architecture: A Quantitative Approach", "John L. Hennessy & David A. Patterson", "Arquitectura de computadoras"],
+    ["Introduction to Computing Systems", "Yale Patt & Sanjay Patel", "Fundamentos de computación"],
+    ["Head First Python", "Paul Barry", "Python básico visual y práctico"],
+    ["Mastering Python", "Rick van Hattem", "Python avanzado"],
+    ["Programming in Scala", "Martin Odersky", "Lenguaje Scala y programación funcional"],
+    ["C++ Primer", "Stanley B. Lippman", "Introducción a C++"],
+    ["Effective Java", "Joshua Bloch", "Buenas prácticas en Java"],
+    ["Python Pocket Reference", "Mark Lutz", "Referencia rápida de Python"],
+    ["The Little Schemer", "Daniel P. Friedman & Matthias Felleisen", "Programación funcional y recursión"],
+    ["Head First Algorithms", "Bert Bates & Kathy Sierra", "Algoritmos visuales y prácticos"]
+]
